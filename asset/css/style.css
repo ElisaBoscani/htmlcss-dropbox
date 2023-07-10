@@ -22,6 +22,14 @@ body {
 .d_flex {
   display: flex;
 }
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.justify_center {
+  padding-top: 3.125rem;
+  justify-content: center;
+}
 /* #end utility */
 
 /* #debug */
@@ -38,13 +46,41 @@ body {
   height: 5.3125rem;
 }
 .debug main {
-  background-color: rgba(137, 43, 226, 0.48);
+  background-color: lightgrey;
   height: 255rem;
 }
-
+.debug .introduction {
+  background-color: var(--dbox--primary);
+  height: 46.25rem;
+}
+.debug .introduction .d_flex {
+  justify-content: center;
+  padding: 10.625rem;
+}
+.debug .introduction .d_flex div {
+  background-color: yellow;
+  height: 25rem;
+  width: 25rem;
+}
+.debug .col_3 {
+  background-color: violet;
+  height: 56.25rem;
+  width: calc(100% / 12 * 4);
+}
+.debug .row {
+  gap: 1.25rem;
+  padding-top: 9.375rem;
+  justify-content: space-between;
+}
 .debug footer {
   background-color: burlywood;
   height: 35.625rem;
+}
+.debug .enterprise {
+  background-color: lightcoral;
+  height: 16.875rem;
+  width: 100%;
+  padding-top: 3.125rem;
 }
 /* #end debug */
 
