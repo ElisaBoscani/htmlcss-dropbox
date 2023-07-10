@@ -1,0 +1,51 @@
+/* #global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* #end global */
+
+/* #utility */
+
+:root {
+  --dbox--light: #ffffff;
+  --dbox--dark: #000000;
+  --dbox--btn: #0061ff;
+  --dbox--primary: #b4d0e7;
+  --dbox--text: #692750;
+}
+.d_flex {
+  display: flex;
+}
+/* #end utility */
+
+/* #debug */
+.debug header {
+  background-color: aquamarine;
+  height: 5.3125rem;
+}
+.debug nav {
+  justify-content: space-between;
+}
+.debug nav div {
+  background-color: bisque;
+  width: 35rem;
+  height: 5.3125rem;
+}
+.debug main {
+  background-color: rgba(137, 43, 226, 0.48);
+  height: 255rem;
+}
+
+.debug footer {
+  background-color: burlywood;
+  height: 35.625rem;
+}
+/* #end debug */
+
+/*  */
