@@ -30,6 +30,7 @@ body {
   padding-top: 3.125rem;
   justify-content: center;
 }
+
 /* #end utility */
 
 /* #debug */
@@ -82,6 +83,30 @@ body {
   width: 100%;
   padding-top: 3.125rem;
 }
-/* #end debug */
+.find_partner {
+  gap: 1.25rem;
+}
+.debug .find_partner div {
+  background-color: lightblue;
+  height: 37.5rem;
+  width: calc(100% / 2);
+}
+.debug .business div {
+  background-color: lightgreen;
+  height: 28.75rem;
+  width: 33%;
+}
+.debug .use {
+  background-color: lightpink;
+  height: 9.375rem;
+  width: 50%;
+  margin-top: 3.125rem;
+}
 
-/*  */
+/* #end debug */
+/* #main */
+.business {
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+/* #end main */
