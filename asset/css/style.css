@@ -31,6 +31,9 @@ h2 {
   font-size: 2.5rem;
   padding-bottom: 3.125rem;
 }
+h3 {
+  font-size: 2.25rem;
+}
 
 /* #end common */
 /* #utility */
@@ -175,6 +178,16 @@ h2 {
   font-size: 3em;
   padding-top: 80px;
 }
+/* end parte superiore */
+.pass {
+  border-bottom: 0.0625rem solid black;
+  padding: 1.25rem;
+  text-align: center;
+}
+.pass span {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
 .row {
   gap: 1.25rem;
   padding-top: 9.375rem;
@@ -183,8 +196,19 @@ h2 {
 .col_3 {
   height: 56.25rem;
   width: calc(100% / 12 * 4);
+  border: 1px solid black;
 }
-
+.card {
+  padding: 1.875rem;
+}
+.price {
+  font-weight: bold;
+}
+.month {
+  font-weight: 100;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
 .enterprise {
   height: 16.875rem;
   width: 100%;
