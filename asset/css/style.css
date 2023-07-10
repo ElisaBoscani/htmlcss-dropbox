@@ -48,16 +48,13 @@ body {
 }
 .debug main {
   background-color: lightgrey;
-  height: 255rem;
+  height: 362.5rem;
 }
 .debug .introduction {
   background-color: var(--dbox--primary);
   height: 46.25rem;
 }
-.debug .introduction .d_flex {
-  justify-content: center;
-  padding: 10.625rem;
-}
+
 .debug .introduction .d_flex div {
   background-color: yellow;
   height: 25rem;
@@ -65,20 +62,66 @@ body {
 }
 .debug .col_3 {
   background-color: violet;
-  height: 56.25rem;
-  width: calc(100% / 12 * 4);
 }
-.debug .row {
-  gap: 1.25rem;
-  padding-top: 9.375rem;
-  justify-content: space-between;
-}
+
 .debug footer {
   background-color: burlywood;
   height: 35.625rem;
 }
 .debug .enterprise {
   background-color: lightcoral;
+}
+
+.debug .find_partner div {
+  background-color: lightblue;
+  height: 37.5rem;
+}
+.debug .business div {
+  background-color: lightgreen;
+  height: 28.75rem;
+}
+.debug .use {
+  background-color: lightpink;
+  height: 9.375rem;
+}
+
+.debug .designit div {
+  background-color: lightgoldenrodyellow;
+  height: 37.5rem;
+
+  border: 1px solid black;
+}
+.debug .free_trial {
+  background-color: #b4d0e7;
+  height: 21.875rem;
+}
+.debug .question {
+  background-color: burlywood;
+  height: 34.375rem;
+}
+.debug .link div {
+  background-color: #692750;
+  height: 21.875rem;
+}
+
+/* #end debug */
+/* #main */
+.introduction .d_flex {
+  justify-content: center;
+  padding: 10.625rem;
+}
+
+.row {
+  gap: 1.25rem;
+  padding-top: 9.375rem;
+  justify-content: space-between;
+}
+.col_3 {
+  height: 56.25rem;
+  width: calc(100% / 12 * 4);
+}
+
+.enterprise {
   height: 16.875rem;
   width: 100%;
   padding-top: 3.125rem;
@@ -86,27 +129,37 @@ body {
 .find_partner {
   gap: 1.25rem;
 }
-.debug .find_partner div {
-  background-color: lightblue;
-  height: 37.5rem;
+
+.find_partner div {
   width: calc(100% / 2);
 }
-.debug .business div {
-  background-color: lightgreen;
-  height: 28.75rem;
+
+.business div {
   width: 33%;
 }
-.debug .use {
-  background-color: lightpink;
-  height: 9.375rem;
-  width: 50%;
-  margin-top: 3.125rem;
-}
 
-/* #end debug */
-/* #main */
 .business {
   gap: 0.5rem;
   flex-wrap: wrap;
 }
+
+.use {
+  width: 50%;
+  margin-top: 3.125rem;
+}
+
+.designit div {
+  width: calc(100% / 2);
+}
+.designit {
+  padding-top: 3.125rem;
+}
 /* #end main */
+/* #footer */
+.link div {
+  width: calc(100% / 12 * 4);
+}
+.link {
+  gap: 20px;
+}
+/* #end footer */
