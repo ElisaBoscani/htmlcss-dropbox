@@ -50,6 +50,10 @@ h3 {
   --dbox--topps: #ff1c1c;
   --dbox--shadow: #d1e9cd;
   --dbox--company: #f5f5f5;
+  --dbox--wbr: #d5001f;
+  --dbox--hearst: #b4d0e7;
+  --dbox--lp: #0d2481;
+  --dbox--clear: #ffd830;
 }
 .d_flex {
   display: flex;
@@ -329,12 +333,22 @@ h3 {
 /* #end use */
 /* #company */
 
-.company {
-  padding-top: 3.125rem;
+.containers {
+  display: flex;
+  justify-content: space-between;
+}
+.container_company {
+  width: calc(100% / 3);
+}
+.square_container {
+  display: flex;
+  flex-wrap: wrap;
 }
 .square {
-  height: 20.25rem;
-  width: 20.25rem;
+  width: 337px;
+  height: 337px;
+  justify-content: center;
+  align-items: center;
 }
 .designit {
   background-color: var(--dbox--designit);
@@ -354,10 +368,24 @@ h3 {
 .topps {
   background-color: var(--dbox--topps);
 }
-
+.wbr {
+  background-color: var(--dbox--wbr);
+}
+.hearst {
+  background-color: var(--dbox--hearst);
+}
+.lonely_planet {
+  background-color: var(--dbox--lp);
+}
+.clear_channel {
+  background-color: var(--dbox--clear);
+}
 .card_company {
-  padding: 1.875rem;
+  padding: 2.5rem;
   background-color: var(--dbox--company);
+}
+.author {
+  line-height: 14.25rem;
 }
 /* #end main */
 /* #footer */
@@ -368,23 +396,6 @@ h3 {
   gap: 20px;
 }
 /* #end footer */
-.contenitori {
-  display: flex;
-  justify-content: space-between;
-}
-.contenitore {
-  width: calc(100% / 3);
-}
-.quadrati {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
+
 .quadrato {
-  width: 337px;
-  height: 337px;
-  background-color: #000000;
-  border: 1px solid white;
-  justify-content: center;
-  align-items: center;
 }
