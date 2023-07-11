@@ -16,7 +16,7 @@ nav {
 li {
   list-style: none;
 }
-a {
+li a {
   text-decoration: none;
   color: var(--dbox--dark);
   font-weight: 600;
@@ -29,10 +29,9 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
-  padding-bottom: 3.125rem;
 }
 h3 {
-  font-size: 2.25rem;
+  font-size: 1.25rem;
 }
 
 /* #end common */
@@ -45,6 +44,12 @@ h3 {
   --dbox--btn-text: #deeaff;
   --dbox--primary: #b4d0e7;
   --dbox--text: #692750;
+  --dbox--designit: #a2d39b;
+  --dbox--uf: #0093ce;
+  --dbox--asu: #61082b;
+  --dbox--topps: #ff1c1c;
+  --dbox--shadow: #d1e9cd;
+  --dbox--company: #f5f5f5;
 }
 .d_flex {
   display: flex;
@@ -58,14 +63,29 @@ h3 {
   max-width: 70%;
   margin: 0 auto;
 }
+.flex_wrap {
+  flex-wrap: wrap;
+}
 .justify_center {
-  padding-top: 3.125rem;
   justify-content: center;
+}
+.aline_items {
+  align-items: baseline;
+  gap: 0.3125rem;
 }
 .mrg_top {
   margin-top: 11rem;
 }
 
+.pdg_bot {
+  padding-bottom: 5.25rem;
+}
+.pdg_top {
+  padding-top: 9.875rem;
+}
+.pdg {
+  padding: 2.25rem;
+}
 /* #end utility */
 
 /* #debug */
@@ -178,7 +198,9 @@ h3 {
   font-size: 3em;
   padding-top: 80px;
 }
-/* end parte superiore */
+/* #end parte superiore */
+
+/* #card */
 .pass {
   border-bottom: 0.0625rem solid black;
   padding: 1.25rem;
@@ -190,18 +212,17 @@ h3 {
 }
 .row {
   gap: 1.25rem;
-  padding-top: 9.375rem;
   justify-content: space-between;
 }
 .col_3 {
-  height: 56.25rem;
   width: calc(100% / 12 * 4);
   border: 1px solid black;
 }
 .card {
-  padding: 1.875rem;
+  padding: 2.875rem;
 }
 .price {
+  font-size: 1.25rem;
   font-weight: bold;
 }
 .month {
@@ -209,11 +230,51 @@ h3 {
   margin-top: -15px;
   margin-bottom: 30px;
 }
+
+.btn_buy {
+  padding: 1rem;
+  border: none;
+  margin-top: 3.25rem;
+  font-weight: bold;
+  margin-bottom: 1.625rem;
+}
+.border {
+  position: relative;
+  width: 12.5rem;
+  height: 0.625rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.line {
+  position: absolute;
+  width: 3.25rem;
+  height: 0.125rem;
+  background-color: lightgray;
+  border-left: 5px solid lightgray;
+}
+/* #end card */
+/* #enterprise */
 .enterprise {
-  height: 16.875rem;
+  text-align: center;
   width: 100%;
+  padding: 1.125rem;
+  border-bottom: 1px solid black;
+}
+.enterprise_card {
+  margin-top: 2.25rem;
+  border: 1px solid black;
+}
+
+.contac {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+.enterprise_text {
+  width: 50%;
   padding-top: 3.125rem;
 }
+/* #end enterprise */
+/* partner */
 .find_partner {
   gap: 1.25rem;
 }
@@ -221,26 +282,82 @@ h3 {
 .find_partner div {
   width: calc(100% / 2);
 }
-
-.business div {
-  width: 33%;
+.partner {
+  width: 50%;
+  height: 32.5rem;
 }
-
+.partner_text {
+  padding-top: 0.9375rem;
+  width: 50%;
+  padding-bottom: 1rem;
+}
+.btn_partner {
+  background-color: var(--dbox--light);
+  padding: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-top: 1.25rem;
+}
+.img_business {
+  width: 70%;
+  height: 15.3125rem;
+}
+.titol_business {
+  font-size: 1.8rem;
+  padding-bottom: 0.5rem;
+  width: 70%;
+}
+.business div {
+  width: 32%;
+}
+.business_text {
+  width: 60%;
+}
 .business {
-  gap: 0.5rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
-
+/* #endpartner */
+/* #use */
 .use {
-  width: 50%;
   margin-top: 3.125rem;
 }
+.use h2 {
+  width: 50%;
+  padding-bottom: 3.25rem;
+}
+/* #end use */
+/* #company */
 
-.designit div {
-  width: calc(100% / 2);
+.company {
+  padding-top: 3.125rem;
+}
+.square {
+  height: 20.25rem;
+  width: 20.25rem;
 }
 .designit {
-  padding-top: 3.125rem;
+  background-color: var(--dbox--designit);
+  box-shadow: 10px 10px 0px 0px var(--dbox--shadow) inset;
+}
+.img_company {
+  filter: invert(100%);
+  width: 10.9375rem;
+  height: 4.6875rem;
+}
+.asu {
+  background-color: var(--dbox--asu);
+}
+.uf {
+  background-color: var(--dbox--uf);
+}
+.topps {
+  background-color: var(--dbox--topps);
+}
+
+.card_company {
+  padding: 1.875rem;
+  background-color: var(--dbox--company);
 }
 /* #end main */
 /* #footer */
@@ -251,3 +368,23 @@ h3 {
   gap: 20px;
 }
 /* #end footer */
+.contenitori {
+  display: flex;
+  justify-content: space-between;
+}
+.contenitore {
+  width: calc(100% / 3);
+}
+.quadrati {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.quadrato {
+  width: 337px;
+  height: 337px;
+  background-color: #000000;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+}
