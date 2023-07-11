@@ -301,6 +301,8 @@ h3 {
   font-size: 1.5rem;
   font-weight: 100;
   margin-top: 1.25rem;
+  text-decoration: none;
+  color: var(--dbox--dark);
 }
 .img_business {
   width: 70%;
@@ -387,6 +389,29 @@ h3 {
 .author {
   line-height: 14.25rem;
 }
+/* #endcompany */
+/* #free trial */
+.free_trial {
+  background-color: var(--dbox--primary);
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2.875rem;
+}
+.free_trial h2 {
+  color: var(--dbox--text);
+}
+.question_card {
+  justify-content: space-between;
+  padding: 2.5rem;
+  border-top: 1px solid black;
+}
+.display_none {
+  display: none;
+}
+.display_none:hover {
+  display: inline;
+}
+/* #endfree trial */
 /* #end main */
 /* #footer */
 .link div {
@@ -396,6 +421,3 @@ h3 {
   gap: 20px;
 }
 /* #end footer */
-
-.quadrato {
-}
