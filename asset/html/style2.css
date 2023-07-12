@@ -1,0 +1,128 @@
+/* #global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* #end global */
+/* #commond */
+header {
+  padding: 26px;
+  border-bottom: 1px solid rgba(124, 121, 121, 23%);
+}
+nav {
+  justify-content: space-between;
+}
+img {
+  width: 10%;
+}
+h1 {
+  margin-top: 3.125rem;
+}
+span {
+  font-weight: bold;
+}
+button {
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 2.25rem;
+  width: 100%;
+  margin-top: 1.25rem;
+  border: none;
+}
+footer {
+  background-color: black;
+  height: 9.375rem;
+  margin-top: 1.25rem;
+}
+/* #utility */
+.container {
+  width: 30%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.d_flex {
+  display: flex;
+}
+.d_column {
+  display: flex;
+  flex-direction: column;
+}
+.justify_between {
+  justify-content: space-between;
+}
+
+/* #input */
+.login {
+  text-decoration: none;
+  font-size: 1.7rem;
+}
+
+.login_google {
+  gap: 1.125rem;
+
+  align-items: center;
+}
+.login_apple {
+  gap: 8.5rem;
+  align-items: center;
+}
+.login_apple span {
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+.circol {
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 0.3125rem;
+  align-items: center;
+  padding: 0.5rem;
+  margin-top: 2.25rem;
+}
+.email {
+  font-weight: 100;
+}
+
+.border {
+  position: relative;
+
+  height: 0.625rem;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+.line {
+  position: absolute;
+  width: 13.25rem;
+  right: -4.5rem;
+  height: 0.125rem;
+  background-color: black;
+  border-left: 5px solid black;
+}
+.line_2 {
+  position: absolute;
+  width: 13.25rem;
+  right: -8.5rem;
+  height: 0.125rem;
+  background-color: black;
+  border-left: 5px solid black;
+}
+.option {
+  align-items: center;
+  justify-content: space-evenly;
+}
+.text_option {
+  font-size: 2rem;
+  font-weight: 100;
+}
+.login_email {
+  height: 3.125rem;
+}

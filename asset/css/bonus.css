@@ -7,7 +7,45 @@
   top: 0;
   left: 0;
   display: none;
+  width: 25.5rem;
+}
+.position_absolute_left {
+  position: absolute;
+  top: 0;
+  left: 250px;
+  display: none;
+  width: 22.5rem;
+}
+.position_absolute_top {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+  width: 22.5rem;
+  z-index: 9;
+}
+.drop_down_menu:hover .position_absolute_left {
+  display: block;
+  background-color: bisque;
+  padding: 3.125rem;
+  line-height: 2rem;
 }
 .drop_down_menu:hover .position_absolute {
   display: block;
+  background-color: bisque;
+  padding: 3.125rem;
+  line-height: 2rem;
+}
+.drop_down_menu:hover .position_absolute_top {
+  display: block;
+  background-color: bisque;
+  padding: 3.125rem;
+  line-height: 2rem;
+}
+.drop_down_menu ul li a:hover {
+  border-bottom: 1px solid black;
+}
+.link_logo li .border_botton:hover {
+  background-color: bisque;
+  border-bottom: 1px solid black;
 }

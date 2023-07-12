@@ -213,10 +213,9 @@ h3 {
 .link_logo .border_botton {
   border-bottom: none;
 }
-/* .link_logo li .border_botton:hover {
+.link_logo li .border_botton:hover {
   border-bottom: 1px solid black;
-} */
-
+}
 /* #end header */
 /* #main */
 .introduction {
