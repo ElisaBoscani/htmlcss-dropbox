@@ -349,13 +349,13 @@ h3 {
   font-size: 1.8rem;
   padding-bottom: 0.5rem;
 }
-.business div {
-  width: 32%;
-}
 
 .business {
-  gap: 1.2rem;
   flex-wrap: wrap;
+}
+.row_card {
+  padding: 0.625rem;
+  width: calc(100% / 12 * 4);
 }
 /* #endpartner */
 /* #use */
@@ -374,15 +374,17 @@ h3 {
   justify-content: space-between;
 }
 .container_company {
-  width: calc(100% / 3);
-}
-.square_container {
   display: flex;
   flex-wrap: wrap;
+  width: 33.33%;
+}
+
+.square_container {
+  display: flex;
 }
 .square {
-  width: 337px;
-  height: 337px;
+  width: 50%;
+  height: 50%;
   justify-content: center;
   align-items: center;
 }
